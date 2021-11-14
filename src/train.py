@@ -105,7 +105,7 @@ def train_util(model, train_data, dev, test, train, words, params):
                         g1mask = data_io.seq2weight(g1x, g1mask, params.weight4ind)
                     cost = model.train_function(scores, g1x, g1mask)
                 if np.isnan(cost) or np.isinf(cost):
-                    print 'NaN detected'
+                    print ('NaN detected')
                 # undo batch to save RAM
                 for i in batch:
                     i[0].representation = None
