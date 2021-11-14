@@ -1,36 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@MohamedISSA98 
-MohamedISSA98
-/
-SIF
-Public
-forked from PrincetonML/SIF
-0
-0294
-Code
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-SIF/src/train.py /
-@MohamedISSA98
-MohamedISSA98 Update train.py
-Latest commit f87c705 1 hour ago
- History
- 2 contributors
-@MohamedISSA98@YingyuLiang
-242 lines (222 sloc)  9.81 KB
-   
-
 import sys, os
 from time import time
 import random
@@ -272,15 +239,3 @@ else:
 
 # train
 train_util(model, train_data, params.devdata, params.testdata, params.traindata, words, params)
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
